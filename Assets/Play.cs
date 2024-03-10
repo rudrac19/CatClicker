@@ -9,10 +9,4 @@ public class Play : MonoBehaviour
     {
         SceneManager.LoadScene("Level");
     }
-
-    public void Quit()
-    {
-        Application.Quit();
-    }
-
 }
