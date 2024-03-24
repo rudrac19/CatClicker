@@ -42,13 +42,7 @@ PlayerSettings:
   m_SplashScreenLogos:
   - logo: {fileID: 10404, guid: 0000000000000000e000000000000000, type: 0}
     duration: 2
-  - logo: {fileID: 21300000, guid: d906281f962b6c04ca1c2e23a5126fcb, type: 3}
-    duration: 2
-  - logo: {fileID: 21300000, guid: eb2641246ac6f914382ea0bdbf94ca66, type: 3}
-    duration: 2
-  - logo: {fileID: 21300000, guid: 81534fa89809d7b43a2498330743ef54, type: 3}
-    duration: 2
-  - logo: {fileID: 0}
+  - logo: {fileID: 21300000, guid: fb3639e60457de449ad3c71610001739, type: 3}
     duration: 2
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
@@ -145,7 +139,8 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 1.2
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 11400000, guid: e569a39fdc7453b4ea4115325d71eeb5, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -560,6 +555,9 @@ PlayerSettings:
     m_Automatic: 1
   - m_BuildTarget: iOSSupport
     m_APIs: 10000000
+    m_Automatic: 1
+  - m_BuildTarget: WebGLSupport
+    m_APIs: 0b00000008000000
     m_Automatic: 1
   m_BuildTargetVRSettings: []
   m_DefaultShaderChunkSizeInMB: 16
