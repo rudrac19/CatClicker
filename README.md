@@ -5,17 +5,28 @@
 
 In the 1.3 update, we put in a lot of features! The leaderboard, navbar, news, ad, and a special April Fools feature! You can see the change log for the 1.3 update, here:
 
-CHANGE LOG
+CHANGE LOG - See the release log (github.com/rudrac19/CatClicker/releases) for more info
 
-- Added leaderboard
-- Added navbar
-- Added news
-- Added ad
-- Added special April Fools feature (1.3.1) (only available from April 1st to the 7th)
+- Added Leaderboard
+- Added Navbar
+- Added News
+- Added Ad
+- Added "More" Section
+- Added News
+- Added Shop
+- Removed Exit Panel
+- Replaced Quit Button
+- Added special April Fools feature (1.3.3) (only available from April 1st to the 7th)
+- Fixed bugs (CCBug1 & CCBug3)
 
 # 1.4 (2024)
 
-This amazing update is releasing in October 2024
+This amazing update will be released in October 2024. You can see the change log for the update, here:
+
+CHANGE LOG*
+
+- Added shop
+- Added skins
 
 
 # Open Source
@@ -34,8 +45,15 @@ Please do not sell this product for any price without attribution.**
 
 # Release Dates
 
-1.3 (March 24, 2024)
-1.4 (October, 2024)
+-1.3 (March 24, 2024)
+-1.3.1 (March 24, 2024)
+-1.3.2 (March 28, 2024)
+-1.3.3 (April 1, 2024)
+-1.3.4 (April 7, 2024)
+
+-----------------------
+
+-1.4 (October, 2024)
 
 #
 
