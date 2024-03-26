@@ -9,7 +9,6 @@ CHANGE LOG - See the release log (github.com/rudrac19/CatClicker/releases) for m
 
 - Added Leaderboard
 - Added Navbar
-- Added News
 - Added Ad
 - Added "More" Section
 - Added News
