@@ -46,9 +46,9 @@ Please do not sell this product for any price without attribution.**
 
 -1.3 (March 24, 2024)
 -1.3.1 (March 24, 2024)
--1.3.2 (March 28, 2024)
--1.3.3 (April 1, 2024)
--1.3.4 (April 7, 2024)
+-1.3.2 (April 1, 2024)
+-1.3.3 (April 7, 2024)
+-1.3.4 (April 21, 2024)
 
 -----------------------
 
