@@ -138,7 +138,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.3.1
+  bundleVersion: 1.3.2.dog.april.fools.2024
   preloadedAssets:
   - {fileID: 11400000, guid: e569a39fdc7453b4ea4115325d71eeb5, type: 2}
   metroInputSource: 0
