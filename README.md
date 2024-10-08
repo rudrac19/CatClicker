@@ -30,7 +30,7 @@ CHANGE LOG*
 
 # Open Source
 
-Hi! We recently made Cat Cliker an open-source project! This would be great for developers who want to mod this game or see how the game works! With that in mind, we can finally publish beta releases. Their version listings will be formatted like so:
+Hi! We recently made Cat Clicker an open-source project! This would be great for developers who want to mod this game or see how the game works! With that in mind, we can finally publish beta releases. Their version listings will be formatted like so:
 
   beta (next update version).(the beta version for that)
   
