@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class CatSelector : MonoBehaviour
@@ -17,24 +16,29 @@ public class CatSelector : MonoBehaviour
 
     public void ToWitchCat()
     {
-        if (isWitchCatPurchased) 
-        { 
-            currentCatShownOnScreen = "Witch"; 
+        if (isWitchCatPurchased)
+        {
+            currentCatShownOnScreen = "Witch";
         }
+        catUI.SetActive(false);
+        dogUI.SetActive(false);
+        witchCatUI.SetActive(true);
     }
     public void ToCat()
     {
         currentCatShownOnScreen = "Cat";
+        catUI.SetActive(true);
+        dogUI.SetActive(false);
+        witchCatUI.SetActive(false);
     }
     public void ToDog()
     {
-        if (isDogPurchased) 
-        { 
-            currentCatShownOnScreen = "Dog"; 
+        if (isDogPurchased)
+        {
+            currentCatShownOnScreen = "Dog";
         }
+        catUI.SetActive(false);
+        dogUI.SetActive(true);
+        witchCatUI.SetActive(false);
     }
-
-
-
-
 }
