@@ -1271,7 +1271,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 261441300}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1809262212}
+        m_TargetAssemblyTypeName: CatSelector, Assembly-CSharp
+        m_MethodName: SelectCat
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &261441300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4329,7 +4341,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 858135524}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1809262212}
+        m_TargetAssemblyTypeName: CatSelector, Assembly-CSharp
+        m_MethodName: SelectCat
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &858135524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4763,7 +4787,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 500
+  m_text: 2000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6029,7 +6053,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1145443149}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1809262212}
+        m_TargetAssemblyTypeName: CatSelector, Assembly-CSharp
+        m_MethodName: SelectCat
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1145443149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8303,10 +8339,17 @@ MonoBehaviour:
   catUI: {fileID: 456211096}
   dogUI: {fileID: 858862279}
   witchCatUI: {fileID: 1958499142}
+  selectedCatButtonUI:
+  - {fileID: 261441297}
+  - {fileID: 1058054563}
+  - {fileID: 1145443146}
+  - {fileID: 876630704}
+  - {fileID: 858135521}
+  - {fileID: 792297557}
   isDogPurchased: 0
   isWitchCatPurchased: 0
-  selectedCat: 
-  currentCatShownOnScreen: 
+  selectedCat: 0
+  currentCatShownOnScreen: Cat
 --- !u!4 &1809262213
 Transform:
   m_ObjectHideFlags: 0

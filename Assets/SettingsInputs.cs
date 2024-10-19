@@ -9,10 +9,9 @@ public class SettingsInputs : MonoBehaviour
     public float volume;
     public AudioSource audio;
 
-    // Start is called before the first frame update
-    void Start()
+    public void ResetData()
     {
-        
+        PlayerPrefs.DeleteAll();
     }
 
     // Update is called once per frame
