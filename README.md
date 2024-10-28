@@ -26,6 +26,9 @@ CHANGE LOG - See the release log (github.com/rudrac19/CatClicker/releases) for m
 
 - Added shop
 - Added skins
+- Removed News Section
+- Fixed bugs (CCBug2) (CCBug5) (CCBug6)
+- Opened bug (CCBug7)
 
 
 # Open Source
