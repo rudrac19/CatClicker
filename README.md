@@ -20,9 +20,9 @@ CHANGE LOG - See the release log (github.com/rudrac19/CatClicker/releases) for m
 
 # 1.4 (2024)
 
-This amazing update will be released in October 2024. You can see the change log for the update, here:
+This amazing update was released in October 27 2024. You can see the change log for the update, here:
 
-CHANGE LOG*
+CHANGE LOG - See the release log (github.com/rudrac19/CatClicker/releases) for more info
 
 - Added shop
 - Added skins
@@ -52,7 +52,11 @@ Please do not sell this product for any price without attribution.**
 
 -----------------------
 
--1.4 (October, 2024)
+-1.4 (October 27, 2024)
+
+-----------------------
+
+-1.5 (2025)
 
 #
 
