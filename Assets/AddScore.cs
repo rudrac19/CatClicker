@@ -6,25 +6,30 @@ using UnityEngine.SceneManagement;
 
 public class AddScore : MonoBehaviour
 {
-    
-    public Text scoreText;
+
+    public static Text scoreText;
     public GameObject timesTwo;
 
     public static int score = 0;
-    bool giveReward;
+    static bool giveReward = false;
 
     void Start()
     {
-        
-        score = PlayerPrefs.GetInt("score", 0);
-        scoreText.text = score.ToString();
-        if (AdManager.rewardedNeeded == true)
-        {
-            StartCoroutine(GiveReward());
+        if (SceneManager.GetActiveScene().buildIndex == 1){   
+            score = PlayerPrefs.GetInt("score", 0);
+            scoreText.text = score.ToString();
+            if (AdManager.rewardedNeeded == true)
+            {
+                StartCoroutine(GiveReward());
+            }
+            else
+            {
+                timesTwo.SetActive(false);
+            }
         }
-        else
-        {
-            timesTwo.SetActive(false);
+        if (SceneManager.GetActiveScene().buildIndex == 4){
+            score = 0;
+            scoreText.text = score.ToString();
         }
     }
 
@@ -40,7 +45,7 @@ public class AddScore : MonoBehaviour
     }
 
 
-    public void AddNewText()
+    public static void AddNewText()
     {
         score++;
         if (giveReward)
@@ -48,6 +53,9 @@ public class AddScore : MonoBehaviour
             score++;
         }
         scoreText.text = score.ToString();
-        PlayerPrefs.SetInt("score", score);
+        if (SceneManager.GetActiveScene().buildIndex == 1)
+        {
+            PlayerPrefs.SetInt("score", score);
+        }
     }
 }
