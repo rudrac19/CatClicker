@@ -28,6 +28,7 @@ public class AddScore : MonoBehaviour
             }
         }
         if (SceneManager.GetActiveScene().buildIndex == 4){
+            scoreText = GameObject.Find("Score").GetComponent<Text>();
             score = 0;
             scoreText.text = score.ToString();
         }
