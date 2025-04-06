@@ -7,10 +7,10 @@ using UnityEngine.SceneManagement;
 public class AddScore : MonoBehaviour
 {
 
-    public static Text scoreText;
+    public Text scoreText;
     public GameObject timesTwo;
 
-    public static int score = 0;
+    public int score = 0;
     static bool giveReward = false;
 
     void Start()
@@ -46,7 +46,7 @@ public class AddScore : MonoBehaviour
     }
 
 
-    public static void AddNewText()
+    public void AddNewText()
     {
         score++;
         if (giveReward)

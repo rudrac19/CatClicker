@@ -30,7 +30,7 @@ public class CatScript : MonoBehaviour
         }else{
             if (view.IsMine){
                 transform.localPosition = new Vector3(Random.Range(-199, 199), Random.Range(-199, 199),0);
-                AddScore.AddNewText();
+                GameObject.Find("Score").GetComponent<AddScore>().AddNewText();
                 
             }
 

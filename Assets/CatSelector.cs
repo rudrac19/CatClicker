@@ -26,7 +26,7 @@ public class CatSelector : MonoBehaviour
     void Update()
     {
         // setting up the score
-        int score = AddScore.score;
+        int score = GameObject.Find("Score").GetComponent<AddScore>().score;
 
         // setting up the booleans
         if (score >= 500 && score <= 1999)

@@ -20,7 +20,7 @@ public class ScoreManager : MonoBehaviour
 
     void Start()
     {
-        score = AddScore.score;
+        score = GameObject.Find("Score").GetComponent<AddScore>().score;
         inputScore.text = score.ToString();
 
     }
