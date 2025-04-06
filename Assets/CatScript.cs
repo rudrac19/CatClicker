@@ -6,9 +6,19 @@ using Photon.Pun;
 public class CatScript : MonoBehaviour
 {
     PhotonView view;
+    GameObject canvas;
+    void Awake()
+    {
+        canvas  = GameObject.Find("Canvas");
+    }
+
     private void Start()
     {
-        view = GetComponent<PhotonView>();
+        if (SceneManager.GetActiveScene().buildIndex == 4){
+            view = GetComponent<PhotonView>();
+            transform.SetParent(canvas.transform);
+        }
+        
     }
 
 
@@ -21,6 +31,7 @@ public class CatScript : MonoBehaviour
             if (view.IsMine){
                 transform.localPosition = new Vector3(Random.Range(-199, 199), Random.Range(-199, 199),0);
                 AddScore.AddNewText();
+                
             }
 
         }

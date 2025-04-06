@@ -7,7 +7,7 @@ using Photon.Pun;
 public class SpawnPlayers : MonoBehaviour
 {
     public GameObject playerPrefab;
-    public GameObject canvas;
+
 
     public float minX;
     public float maxX;
@@ -22,7 +22,5 @@ public class SpawnPlayers : MonoBehaviour
         GameObject cat = PhotonNetwork.Instantiate(playerPrefab.name, 
             randomPosition, 
             Quaternion.identity); 
-
-        cat.transform.SetParent(canvas.transform);
     }
 }
